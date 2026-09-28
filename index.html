@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gondrong Store | Perlengkapan Gunung & Outdoor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="topbar">
+<a class="brand" href="#"><span class="brand-mark">▲</span><span><strong>GONDRONG STORE</strong><small>PERLENGKAPAN GUNUNG & OUTDOOR</small></span></a>
+<nav class="nav"><a href="#home">Beranda</a><a href="#kategori">Kategori</a><a href="#produk">Produk</a><a href="#promo">Promo</a><a href="#kontak">Kontak</a></nav>
+<div class="header-actions"><label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Cari perlengkapan..."></label><button class="cart-button" id="cartButton">🛒 Keranjang <b id="cartCount">0</b></button></div>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="hero-overlay"></div><div class="hero-content"><p class="eyebrow">TOKO PERALATAN GUNUNG & OUTDOOR</p><h1>NAIK GUNUNG.<br><em>LEWATI BATAS.</em></h1><p class="hero-copy">Gear pilihan untuk hiking, camping, trekking, dan perjalanan outdoor. Siapkan perlengkapanmu sebelum jalur memanggil.</p><a class="btn btn-orange" href="#produk">LIHAT PERLENGKAPAN →</a></div><div class="hero-stamp"><span>GONDRONG</span><strong>OUTDOOR</strong><small>EST. 2026 • INDONESIA</small></div></section>
+<section class="category-bar" id="kategori"><div class="container"><div class="section-kicker">PILIH GEAR SESUAI PETUALANGAN</div><div class="category-grid">
+<button class="category-card active" data-category="all">◈<small>Semua</small></button><button class="category-card" data-category="Jaket">🧥<small>Jaket</small></button><button class="category-card" data-category="Sepatu">🥾<small>Sepatu</small></button><button class="category-card" data-category="Tas">🎒<small>Carrier</small></button><button class="category-card" data-category="Tenda">⛺<small>Tenda</small></button><button class="category-card" data-category="Sleeping Bag">🛌<small>Sleeping Bag</small></button><button class="category-card" data-category="Outdoor">🔦<small>Peralatan</small></button>
+</div></div></section>
+<section class="products-section" id="produk"><div class="container"><div class="section-heading"><div><p class="eyebrow dark">GEAR PILIHAN GONDRONG</p><h2>Perlengkapan Siap <span>Diajak Naik.</span></h2></div><p class="section-note">Setiap foto produk sudah disesuaikan dengan nama dan kategori barang.</p></div><div id="productGrid" class="product-grid"></div></div></section>
+<section class="adventure-band"><div class="container adventure-inner"><div><p class="eyebrow">BUKAN CUMA PERLENGKAPAN</p><h2>Karena di gunung,<br><em>gear yang tepat matters.</em></h2></div><div class="adventure-points"><span>01 / HIKING</span><span>02 / CAMPING</span><span>03 / TREKKING</span><span>04 / SUMMIT</span></div></div></section>
+<section class="promo-section" id="promo"><div class="container promo-card"><div><p class="eyebrow dark">PROMO MINGGU INI</p><h2>Diskon hingga <strong>20%</strong></h2><p>Lengkapi gear sebelum berangkat. Stok dan harga dapat berubah.</p></div><button class="btn btn-dark" id="promoButton">LIHAT GEAR PROMO →</button></div></section>
+<section class="benefits" id="kontak"><div class="container benefits-grid"><div><strong>🚚 Pengiriman</strong><span>Ke seluruh Indonesia</span></div><div><strong>✓ Produk Berkualitas</strong><span>Dipilih untuk kebutuhan outdoor</span></div><div><strong>🔒 Pembayaran Aman</strong><span>Transfer, e-wallet & COD*</span></div><div><strong>💬 Customer Service</strong><span>WhatsApp 0878-2193-9022</span></div></div></section>
+</main>
+<footer class="footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="#"><span class="brand-mark">▲</span><span><strong>GONDRONG STORE</strong><small>GEAR TERBAIK UNTUK PETUALANGANMU</small></span></a><p>Perlengkapan gunung & outdoor untuk menemani setiap langkah petualanganmu.</p></div><div><h4>NAVIGASI</h4><a href="#home">Beranda</a><a href="#kategori">Kategori</a><a href="#produk">Produk</a><a href="#promo">Promo</a></div><div><h4>KONTAK</h4><span>WhatsApp: 0878-2193-9022</span><span>Email: gondrongstore@gmail.com</span><span>Indonesia</span></div></div><div class="footer-bottom">© 2026 Gondrong Store. All Rights Reserved.</div></footer>
+<div class="cart-backdrop" id="cartBackdrop"></div><aside class="cart-panel" id="cartPanel"><div class="cart-head"><div><span class="eyebrow dark">KERANJANG</span><h3>Gear Kamu</h3></div><button id="closeCart">×</button></div><div id="cartItems" class="cart-items"></div><div class="cart-footer"><div class="cart-total"><span>Total</span><strong id="cartTotal">Rp0</strong></div><button class="btn btn-orange full" id="checkoutButton">CHECKOUT VIA WHATSAPP</button></div></aside>
+<script src="script.js"></script></body></html>
